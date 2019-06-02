@@ -26,14 +26,14 @@ Luego de instalar Node, se ejecutó el comando
 
     npx create-react-app
 
-lo cual generó el esqueleto de una app React, incluyendo las 
+lo cual generó el esqueleto de una app React, incluyendo las
 carpetas public, src, los archivos package\*, etc.
 
 
-Al clonar este repositorio, el desarrollador obtiene todas 
+Al clonar este repositorio, el desarrollador obtiene todas
 esas carpetas automáticamente (excepto por una de la que
 hablaremos abajo), por lo que no es necesario
-ejecutar este comando de nuevo.
+ejecutar este comando.
 
 ## Instalar dependencias npm
 
@@ -45,7 +45,8 @@ estándar es no subirla al repo (git la ignora porque la tenemos
 incluida en nuestro archivo .gitignore).
 
 Como consecuencia, cuando clonemos el repo, debemos ejecutar el
-siguiente comando:
+siguiente comando (luego de haber entrado a la carpeta del
+proyecto):
 
     npm install
 
