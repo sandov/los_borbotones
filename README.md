@@ -17,9 +17,7 @@ Node.js es necesario para poder usar React.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
-
 ```
-
 Para otras distribuciones, ver la documentación en el sitio de Node 
 
 ## Archivos del esqueleto
@@ -64,4 +62,4 @@ comando
 
 Lo cual ejecuta el servidor localmente, nos muestra el puerto 
 donde está corriendo el server y abre el navegador para ver
-como se ve la app.
+la app como cliente.
