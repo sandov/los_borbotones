@@ -63,3 +63,19 @@ comando
 Lo cual ejecuta el servidor localmente, nos muestra el puerto 
 donde está corriendo el server y abre el navegador para ver
 la app como cliente.
+
+
+# Resumiendo
+
+Teniendo node ya instalado:
+
+    git clone https://github.com/sandov/los_borbotones
+    cd los_borbotones/
+    npm install
+    npm start
+
+Tutorial de React: https://reactjs.org/tutorial/tutorial.html
+Versión en español: https://es.reactjs.org/tutorial/tutorial.html
+
+
+
