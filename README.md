@@ -22,17 +22,16 @@ Para otras distribuciones, ver la documentación en el sitio de Node
 
 ## Archivos del esqueleto
 
-Luego de instalar Node, se ejecutó el comando
+Luego de instalar Node, ejecuté el comando
 
     npx create-react-app
 
 lo cual generó el esqueleto de una app React, incluyendo las
 carpetas public, src, los archivos package\*, etc.
 
-
 Al clonar este repositorio, el desarrollador obtiene todas
 esas carpetas automáticamente (excepto por una de la que
-hablaremos abajo), por lo que no es necesario
+hablaremos abajo), por lo que no es necesario volver a 
 ejecutar este comando.
 
 ## Instalar dependencias npm
