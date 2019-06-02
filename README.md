@@ -33,7 +33,7 @@ carpetas public, src, los archivos package\*, etc.
 Al clonar este repositorio, el desarrollador obtiene todas 
 esas carpetas automáticamente (excepto por una de la que
 hablaremos abajo), por lo que no es necesario
-ejecutar el comando mencionado arriba.
+ejecutar este comando de nuevo.
 
 ## Instalar dependencias npm
 
