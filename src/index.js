@@ -20,7 +20,7 @@ class Semestre extends React.Component {
 
         return (
             <div className="semestre">
-                <h3>Semestre {this.props.num}</h3>
+                <h2>Semestre {this.props.num}</h2>
                 <Asignatura nombre={ramos[numero_semestre-1][0]} />
                 <Asignatura nombre={ramos[numero_semestre-1][1]} />
                 <Asignatura nombre={ramos[numero_semestre-1][2]} />
