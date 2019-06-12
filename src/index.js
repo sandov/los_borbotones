@@ -20,7 +20,7 @@ class Semestre extends React.Component {
 
         return (
             <div className="semestre">
-                <h2>Semestre {this.props.num}</h2>
+                <h3>Semestre {this.props.num}</h3>
                 <Asignatura nombre={ramos[numero_semestre-1][0]} />
                 <Asignatura nombre={ramos[numero_semestre-1][1]} />
                 <Asignatura nombre={ramos[numero_semestre-1][2]} />
@@ -44,9 +44,21 @@ class App extends React.Component {
     render() {
         return(
             <div className="app">
+                <Header />
                 <Semestre num={1} />
                 <Semestre num={2} />
                 <Semestre num={3} />
+            </div>
+        );
+    }
+}
+
+class Header extends React.Component {
+    render() {
+        return(
+            <div className="header">
+                
+                <h1>Ingeniería Civil en Informática — Malla 2012</h1>
             </div>
         );
     }

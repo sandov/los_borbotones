@@ -17,9 +17,16 @@ body {
 .asignatura{
     margin:.5em;
     padding: .5em;
-    border-top: solid #bbb 1px;
+    border-top: solid #aaa 1px;
+    text-align: center;
 }
 
-h2{
+h3{
     text-align:center;
+}
+
+.header{
+    color: #fff;
+    text-shadow: 2px 0 0 #444, -2px 0 0 #444, 0 2px 0 #444, 0 -2px 0 #444, 1px 1px #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444;
+    text-align: center;
 }
