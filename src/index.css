@@ -1,15 +1,15 @@
 body {
-    background-image: linear-gradient(90deg, #adc, #afb);
+    background-image: linear-gradient(90deg, #adc, #adb);
     font-family: Ubuntu;
 }
 
 .semestre{
-    margin: 2em 2em;
+    margin: 2em 1.5em;
     background-color: #f5f5f5;
     display: inline-block;
     border-radius: .4em;
     padding: .5em 1em;
-    width: 20em;
+    width: 22em;
     border: solid #999 2px;
     
 }
@@ -18,7 +18,7 @@ body {
     margin:.5em;
     padding: .5em;
     border-top: solid #aaa 1px;
-    text-align: center;
+    text-align: left;
 }
 
 h2{
@@ -29,4 +29,9 @@ h2{
     color: #fff;
     text-shadow: 2px 0 0 #444, -2px 0 0 #444, 0 2px 0 #444, 0 -2px 0 #444, 1px 1px #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444;
     text-align: center;
+}
+
+.boton-asignatura {
+    float: right;
+    cursor: pointer;
 }
