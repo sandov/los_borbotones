@@ -6,7 +6,7 @@ class Asignatura extends React.Component {
         return (
             <div className="asignatura">
                 {this.props.data.nombre} &nbsp;
-                <BotonAsignatura />
+                <BotonAsignatura data={this.props.data}/>
             </div>
         );
     }

@@ -1,15 +1,24 @@
 import React from "react";
 
-function click_boton(){
-    alert("Hizo clic en botón ver más");
-}
-
 class BotonAsignatura extends React.Component {
+    constructor(){
+        super();
+        this.state = {
+            pulsado: false
+        }
+    }
+
+    click_boton(){
+        alert("Clicked [+]");
+    }
+
     render() {
         return(
-            <span className="boton-asignatura" onClick={click_boton}>
-                [+]
-            </span>
+            <dev className="boton-asignatura">
+                <span  onClick={this.click_boton}>
+                    [+]
+                </span>
+            </dev>
         );
     }
 }
