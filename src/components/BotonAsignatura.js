@@ -1,18 +1,34 @@
 import React from "react";
+import DetallesAsignatura from "./DetallesAsignatura.js";
 
 class BotonAsignatura extends React.Component {
+    constructor(){
+        super();
+        this.state = {
+            activo: false
+        }
+        this.click_boton = this.click_boton.bind(this);
+    }
+
     render() {
         return(
-            <dev className="boton-asignatura">
+            <div className="boton-asignatura">
                 <span  onClick={this.click_boton}>
                     [+]
                 </span>
-            </dev>
+                <DetallesAsignatura data={this.props.data} show={this.state.activo}/>
+            </div>
         );
     }
 
     click_boton(){
-        alert("Clicked [+]");
+        this.setState(
+            prevState => {
+                return {
+                    activo: !prevState.activo
+                }
+            }
+        )
     }
 }
 

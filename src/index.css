@@ -34,4 +34,18 @@ h2{
 .boton-asignatura {
     float: right;
     cursor: pointer;
+    position: relative;
+}
+
+.detalles-asignatura {
+    background-color: #abc;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 1em;
+    width: 15em;
+    border-radius: .4em;
+    display: block;
+    border: solid #999 2px;
+    cursor: auto;
 }

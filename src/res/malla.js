@@ -47,7 +47,7 @@ const malla =
                 {
                     id: 4,
                     nombre: "Física I para Ingeniería",
-                    codigo: "BAIN0yz",
+                    codigo: "BAIN012",
                     creditos: 6,
                     tasa_repr: 0.12,
                     requisitos: [0,1]

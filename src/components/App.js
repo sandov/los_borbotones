@@ -7,7 +7,7 @@ import malla from "../res/malla.js";
 class App extends React.Component {
     render() {
         const SemestreComponents = malla.map(
-            (semestre) => <Semestre data={semestre}/>
+            (semestre) => <Semestre key={semestre.num_sem} data={semestre}/>
         );
 
         return(
