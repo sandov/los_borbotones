@@ -13,7 +13,7 @@ body {
     display: inline-block;
     border-radius: .4em;
     padding: .5em 1em .5em 1em;
-    width: 20em;
+    width: 22em;
     border: solid #999 2px;
     vertical-align: top;
 }
@@ -47,7 +47,7 @@ h2{
     top: 0;
     left: 120%;
     padding: .8em;
-    width: 12em;
+    width: 14em;
     border-radius: .4em;
     display: block;
     border: solid #999 2px;
@@ -82,4 +82,14 @@ ul:last-child{
 .indent{
     width:1em;
     display: inline-block;
+}
+
+.nombre_asignatura_container{
+    display: inline-block;
+    max-width: 15em;
+    vertical-align: center;
+}
+
+.check_asignatura{
+    vertical-align: top;
 }

@@ -25,8 +25,8 @@ class Asignatura extends React.Component {
     render(){
         return (
             <div className="asignatura">
-                <input type="checkbox" onClick={this.handleClick}/>
-                {this.props.data.nombre} &nbsp;
+                <input type="checkbox" class="check_asignatura" onClick={this.handleClick}/>
+                <div className="nombre_asignatura_container"> {this.props.data.nombre} </div> &nbsp;
                 <BotonAsignatura data={this.props.data} pasados={this.props.pasados}/>
             </div>
         );
