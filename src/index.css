@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(90deg, #adc, #adb);
+    background-image: linear-gradient(90deg, #add, #aeb);
     font-family: Ubuntu;
 }
 
@@ -38,7 +38,7 @@ h2{
 }
 
 .detalles-asignatura {
-    background-color: #abc;
+    background-color: #bcd;
     position: absolute;
     top: 0;
     left: 100%;
@@ -54,3 +54,9 @@ h2{
     font-family: monospace;
     font-size: 1.2em;
 }
+
+
+ul:last-child{
+    margin-bottom: 0;
+}
+
