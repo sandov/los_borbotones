@@ -46,7 +46,9 @@ class App extends React.Component {
         return(
             <div className="app">
                 <Header />
-                {SemestreComponents}
+                <div className="semestres_container">
+                    {SemestreComponents}
+                </div>
             </div>
         );
     }

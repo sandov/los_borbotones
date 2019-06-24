@@ -3,19 +3,23 @@ body {
     font-family: Ubuntu;
 }
 
+.semestres_container{
+    max-width: calc(100% - 6em);
+}
+
 .semestre{
-    margin: 2em 1.2em;
+    margin: 1.2em 1.2em 1.2em 1.2em;
     background-color: #f5f5f5;
     display: inline-block;
     border-radius: .4em;
-    padding: .5em 1em;
-    width: 22em;
+    padding: .5em 1em .5em 1em;
+    width: 20em;
     border: solid #999 2px;
     vertical-align: top;
 }
 
 .asignatura{
-    margin:.5em;
+    margin: .5em .6em;
     padding: .5em;
     border-top: solid #aaa 1px;
     text-align: left;
@@ -41,9 +45,9 @@ h2{
     background-color: #bcd;
     position: absolute;
     top: 0;
-    left: 150%;
-    padding: 1em;
-    width: 18em;
+    left: 120%;
+    padding: .8em;
+    width: 12em;
     border-radius: .4em;
     display: block;
     border: solid #999 2px;
