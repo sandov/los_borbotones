@@ -4,7 +4,7 @@ body {
 }
 
 .semestres_container{
-    max-width: calc(100% - 6em);
+    max-width: calc(100% - 8em);
 }
 
 .semestre{
@@ -92,4 +92,10 @@ ul:last-child{
 
 .check_asignatura{
     vertical-align: top;
+}
+
+.sign_container{
+    width: .8em;
+    display: inline-block;
+    text-align: center;
 }

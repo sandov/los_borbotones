@@ -11,14 +11,25 @@ class BotonAsignatura extends React.Component {
     }
 
     render() {
-        return(
-            <div className="boton-asignatura">
-                <span  onClick={this.click_boton}>
-                    [+]
-                </span>
-                <DetallesAsignatura data={this.props.data} show={this.state.activo} pasados={this.props.pasados}/>
-            </div>
-        );
+        if (this.state.activo){
+            return(
+                <div className="boton-asignatura">
+                    <span  onClick={this.click_boton}>
+                        [<span className="sign_container">-</span>]
+                    </span>
+                    <DetallesAsignatura data={this.props.data} show={this.state.activo} pasados={this.props.pasados}/>
+                </div>
+            );
+        }
+        else{
+            return(
+                <div className="boton-asignatura">
+                    <span onClick={this.click_boton}>
+                        [<span className="sign_container">+</span>]
+                    </span>
+                </div>
+            );
+        }
     }
 
     click_boton(){
