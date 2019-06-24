@@ -16,7 +16,7 @@ class BotonAsignatura extends React.Component {
                 <span  onClick={this.click_boton}>
                     [+]
                 </span>
-                <DetallesAsignatura data={this.props.data} show={this.state.activo}/>
+                <DetallesAsignatura data={this.props.data} show={this.state.activo} pasados={this.props.pasados}/>
             </div>
         );
     }
@@ -28,7 +28,7 @@ class BotonAsignatura extends React.Component {
                     activo: !prevState.activo
                 }
             }
-        )
+        );  
     }
 }
 

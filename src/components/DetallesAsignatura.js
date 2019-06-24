@@ -7,11 +7,13 @@ import malla from "./../res/malla.js";
 class DetallesAsignatura extends React.Component {
 
     findPasado(id) {
+        if (this.props.pasados.includes(id)) {
+            return true;
+        }
         return false;
     }
 
     findRamo(id){
-        let ramo = null;
         let semestre = 0;
         let index_ramo_semestre = 0;
 
@@ -26,7 +28,7 @@ class DetallesAsignatura extends React.Component {
     render() {
 
         let listaRequisitos;
-        let espaciador = <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>;
+        let espaciador = <span>&nbsp;</span>;
 
         if (this.props.data.requisitos.length === 0){
             listaRequisitos = <span>{espaciador}Ninguno</span>;
@@ -38,7 +40,9 @@ class DetallesAsignatura extends React.Component {
                     let objeto_ramo = this.findRamo(requisito);
                     let nombre_requisito = objeto_ramo.nombre;
                     let codigo_requisito = objeto_ramo.codigo;
-                    return <li key={requisito}>{espaciador}{nombre_requisito}{" "}<br/>{espaciador}<span className="mono">({codigo_requisito})</span><br/></li>
+                    let pasado = <span className="cross">✘</span>;
+                    if (this.findPasado(requisito)) pasado = <span className="tick">✔</span>;
+                    return <span key={requisito}>{pasado}{nombre_requisito}{" "}<br/><span className="indent"></span><span className="mono">({codigo_requisito})</span><br/></span>
                 }
             )
         }
@@ -52,9 +56,9 @@ class DetallesAsignatura extends React.Component {
                 <span className="mono">{this.props.data.codigo}</span> <br/>
                 Requisitos:
                 <br/>
-                <ul>
+                <div>
                     {listaRequisitos}
-                </ul>
+                </div>
             </div>
         );
     }
