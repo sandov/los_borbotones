@@ -7,7 +7,7 @@ Estado: Comenzando el desarrollo
 Aplicación para mostrar las mallas curriculares de las carreras de
 la facultad de ingeniería.
 
-![screenshot](./public/screen2.png?raw=true "Los Borbotones")
+![screenshot](./public/screen3.png?raw=true "Los Borbotones")
 
 # Documentación para los desarrolladores
 
