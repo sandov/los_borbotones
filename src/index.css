@@ -11,7 +11,7 @@ body {
     padding: .5em 1em;
     width: 22em;
     border: solid #999 2px;
-    
+    vertical-align: top;
 }
 
 .asignatura{

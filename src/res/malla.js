@@ -57,7 +57,15 @@ const malla =
                     creditos: 4,
                     tasa_repr: 0.23,
                     requisitos: [2]
-                }
+                },
+                {
+                    id: 6, 
+                    nombre: "Carpinteria",
+                    codigo: "BAIN0999",
+                    creditos: 6,
+                    tasa_repr: 0.45,
+                    requisitos: [0]
+                },
             ]
     }
 ];
