@@ -1,6 +1,28 @@
 import React from "react";
+import malla from "./../res/malla.js";
+
+//Beware: spaghetti code
+//Here be dragons
 
 class DetallesAsignatura extends React.Component {
+
+    findPasado(id) {
+        return false;
+    }
+
+    findRamo(id){
+        let ramo = null;
+        let semestre = 0;
+        let index_ramo_semestre = 0;
+
+        for (semestre = 0; semestre < malla.length; semestre++){
+            for (index_ramo_semestre = 0; index_ramo_semestre < malla[semestre].ramos.length; index_ramo_semestre++){
+                if (malla[semestre].ramos[index_ramo_semestre].id === id){
+                    return malla[semestre].ramos[index_ramo_semestre];
+                }
+            }
+        }
+    }
     render() {
 
         let listaRequisitos;
@@ -12,10 +34,12 @@ class DetallesAsignatura extends React.Component {
 
         else {
             listaRequisitos = this.props.data.requisitos.map(
-                requisito => <span key={requisito}>{espaciador}{requisito}<br/></span>
-                //no estoy seguro de que esta sea la forma correcta de pasar una unique key a un elemento,
-                //pero las alertas sobre el uniqueness del elemento desaparecen
-                //todo: pasar el nombre/codigo en lugar del id.
+                (requisito) => {
+                    let objeto_ramo = this.findRamo(requisito);
+                    let nombre_requisito = objeto_ramo.nombre;
+                    let codigo_requisito = objeto_ramo.codigo;
+                    return <span key={requisito}>{espaciador}{nombre_requisito}{" "}<br/>{espaciador}({codigo_requisito})<br/></span>
+                }
             )
         }
 
@@ -26,11 +50,37 @@ class DetallesAsignatura extends React.Component {
             <div className="detalles-asignatura">
                 {this.props.data.nombre} <br/>
                 {this.props.data.codigo} <br/>
-                Requisitos: <br/>
+                Requisitos:
+                <br/>
                 {listaRequisitos}
             </div>
         );
     }
+
+    //deprecated:
+     /*findNombre(id_requisito) {
+        let nombre = "nn";
+        malla.forEach(semestre => {
+            semestre.ramos.forEach(ramo => {
+                if (ramo.id === id_requisito){
+                    nombre = ramo.nombre;
+                }
+            });
+        });
+        return nombre;
+    }
+    findCodigo(id_requisito) {
+        let codigo = "cc";
+        malla.forEach(semestre => {
+            semestre.ramos.forEach(ramo => {
+                if (ramo.id === id_requisito){
+                    codigo = ramo.codigo;
+                    
+                }
+            });
+        });
+        return codigo;
+    }*/
 }
 
 export default DetallesAsignatura;

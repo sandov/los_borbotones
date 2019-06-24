@@ -28,9 +28,7 @@ const malla =
                     tasa_repr: 0.99,
                     requisitos: []
                 }
-            ],
-        min_id:0, //Cuál es el menor id en este semestre
-        max_id:2
+            ]
     },
     {
         num_sem: 2,
@@ -60,9 +58,7 @@ const malla =
                     tasa_repr: 0.23,
                     requisitos: [2]
                 }
-            ],
-        min_id:3,
-        max_id:5
+            ]
     }
 ];
 
