@@ -15,7 +15,7 @@ class BotonAsignatura extends React.Component {
             return(
                 <div className="boton-asignatura">
                     <span  onClick={this.click_boton}>
-                        [<span className="sign_container">-</span>]
+                        [<span className="sign_container">–</span>]
                     </span>
                     <DetallesAsignatura data={this.props.data} show={this.state.activo} pasados={this.props.pasados}/>
                 </div>
