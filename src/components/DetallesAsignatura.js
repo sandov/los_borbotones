@@ -38,7 +38,7 @@ class DetallesAsignatura extends React.Component {
                     let objeto_ramo = this.findRamo(requisito);
                     let nombre_requisito = objeto_ramo.nombre;
                     let codigo_requisito = objeto_ramo.codigo;
-                    return <span key={requisito}>{espaciador}{nombre_requisito}{" "}<br/>{espaciador}({codigo_requisito})<br/></span>
+                    return <span key={requisito}>{espaciador}{nombre_requisito}{" "}<br/>{espaciador}<span className="mono">{codigo_requisito}</span><br/></span>
                 }
             )
         }
@@ -49,7 +49,7 @@ class DetallesAsignatura extends React.Component {
         else return(
             <div className="detalles-asignatura">
                 {this.props.data.nombre} <br/>
-                {this.props.data.codigo} <br/>
+                <span className="mono">{this.props.data.codigo}</span> <br/>
                 Requisitos:
                 <br/>
                 {listaRequisitos}
