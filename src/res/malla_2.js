@@ -1,4 +1,4 @@
-const malla_alternativa =
+const malla_2 =
 [
     {
         num_sem: 1,
@@ -75,4 +75,4 @@ const malla_alternativa =
     }
 ];
 
-export default malla_alternativa;
+export default malla_2;
