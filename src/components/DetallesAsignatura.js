@@ -31,7 +31,7 @@ class DetallesAsignatura extends React.Component {
         let espaciador = <span>&nbsp;</span>;
 
         if (this.props.data.requisitos.length === 0){
-            listaRequisitos = <span>{espaciador}Ninguno</span>;
+            listaRequisitos = <span>Ninguno</span>;
         }
 
         else {
@@ -42,7 +42,7 @@ class DetallesAsignatura extends React.Component {
                     let codigo_requisito = objeto_ramo.codigo;
                     let pasado = <span className="cross">✘</span>;
                     if (this.findPasado(requisito)) pasado = <span className="tick">✔</span>;
-                    return <span key={requisito}>{pasado}{nombre_requisito}{" "}<br/><span className="indent"></span><span className="mono">({codigo_requisito})</span><br/></span>
+                    return <div key={requisito}>{pasado}{nombre_requisito}<br/><span className="mono">({codigo_requisito})</span><br/></div>
                 }
             )
         }
@@ -54,7 +54,7 @@ class DetallesAsignatura extends React.Component {
             <div className="detalles-asignatura">
                 {this.props.data.nombre} <br/>
                 <span className="mono">{this.props.data.codigo}</span> <br/>
-                Requisitos:
+                <b>Requisitos:</b>  
                 <br/>
                 <div>
                     {listaRequisitos}

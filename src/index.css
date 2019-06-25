@@ -14,7 +14,7 @@ body {
     display: inline-block;
     border-radius: .4em;
     padding: .5em 1em .5em 1em;
-    width: 22em;
+    width: 21em;
     border: solid #999 2px;
     vertical-align: top;
 }
@@ -46,8 +46,9 @@ h2{
     background-color: #bcd;
     position: absolute;
     top: .5em;
-    left: 2.5em;
+    left: 2.2em;
     padding: .8em;
+    padding-bottom: .4em;
     width: 14em;
     border-radius: .4em;
     display: block;
@@ -58,7 +59,8 @@ h2{
 
 /*flechita de la caja detalles
  * basada en el output de http://www.cssarrowplease.com/
-*/
+ */
+
 .detalles-asignatura:after, .detalles-asignatura:before {
 	right: 100%;
 	top: 0px;
@@ -74,17 +76,15 @@ h2{
 	border-color: rgba(187, 204, 221, 0);
     border-right-color: #bcd;
     border-top-color: #bcd;
-	border-width: 5px;
+	border-width: 3px;
     margin-top: 0px;
-    /*background: teal; */
 }
 .detalles-asignatura:before {
 	border-color: rgba(153, 153, 153, 0);
     border-right-color: #999;
     border-top-color: #999;
-	border-width: 7px;
+	border-width: 5px;
     margin-top: -2px;
-    /*background: pink;*/
 }
 /* FIN flechita de la caja detalles */
 
@@ -93,6 +93,8 @@ h2{
 .mono{
     font-family: monospace;
     font-size: 1.2em;
+    margin-bottom: .4em;
+    display: inline-block;
 }
 
 ul{
@@ -122,7 +124,7 @@ ul:last-child{
 
 .nombre_asignatura_container{
     display: inline-block;
-    max-width: 15em;
+    max-width: 14em;
     vertical-align: center;
 }
 
