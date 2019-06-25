@@ -9,12 +9,12 @@ body {
 }
 
 .semestre{
-    margin: 1.2em 1.2em 1.2em 1.2em;
+    margin: 1.2em 1em 1.2em 1em;
     background-color: #f5f5f5;
     display: inline-block;
     border-radius: .4em;
     padding: .5em 1em .5em 1em;
-    width: 21em;
+    width: 20em;
     border: solid #999 2px;
     vertical-align: top;
 }
