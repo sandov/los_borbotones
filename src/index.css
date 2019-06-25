@@ -45,15 +45,50 @@ h2{
 .detalles-asignatura {
     background-color: #bcd;
     position: absolute;
-    top: 0;
-    left: 120%;
+    top: .5em;
+    left: 2.5em;
     padding: .8em;
     width: 14em;
     border-radius: .4em;
     display: block;
     border: solid #999 2px;
     cursor: auto;
+    border-top-left-radius: 0px;
 }
+
+/*flechita de la caja detalles
+ * basada en el output de http://www.cssarrowplease.com/
+*/
+.detalles-asignatura:after, .detalles-asignatura:before {
+	right: 100%;
+	top: 0px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.detalles-asignatura:after {
+	border-color: rgba(187, 204, 221, 0);
+    border-right-color: #bcd;
+    border-top-color: #bcd;
+	border-width: 5px;
+    margin-top: 0px;
+    /*background: teal; */
+}
+.detalles-asignatura:before {
+	border-color: rgba(153, 153, 153, 0);
+    border-right-color: #999;
+    border-top-color: #999;
+	border-width: 7px;
+    margin-top: -2px;
+    /*background: pink;*/
+}
+/* FIN flechita de la caja detalles */
+
+
 
 .mono{
     font-family: monospace;
