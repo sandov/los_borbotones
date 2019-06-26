@@ -1,5 +1,4 @@
 import React from "react";
-import malla from "./../res/malla.js";
 
 //Beware: spaghetti code
 //Here be dragons
@@ -17,10 +16,10 @@ class DetallesAsignatura extends React.Component {
         let semestre = 0;
         let index_ramo_semestre = 0;
 
-        for (semestre = 0; semestre < malla.length; semestre++){
-            for (index_ramo_semestre = 0; index_ramo_semestre < malla[semestre].ramos.length; index_ramo_semestre++){
-                if (malla[semestre].ramos[index_ramo_semestre].id === id){
-                    return malla[semestre].ramos[index_ramo_semestre];
+        for (semestre = 0; semestre < this.props.malla.length; semestre++){
+            for (index_ramo_semestre = 0; index_ramo_semestre < this.props.malla[semestre].ramos.length; index_ramo_semestre++){
+                if (this.props.malla[semestre].ramos[index_ramo_semestre].id === id){
+                    return this.props.malla[semestre].ramos[index_ramo_semestre];
                 }
             }
         }

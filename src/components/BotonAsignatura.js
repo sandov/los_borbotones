@@ -17,7 +17,7 @@ class BotonAsignatura extends React.Component {
                     <span  onClick={this.click_boton}>
                         [<span className="sign_container">–</span>]
                     </span>
-                    <DetallesAsignatura data={this.props.data} show={this.state.activo} pasados={this.props.pasados}/>
+                    <DetallesAsignatura data={this.props.data} show={this.state.activo} pasados={this.props.pasados} malla={this.props.malla}/>
                 </div>
             );
         }

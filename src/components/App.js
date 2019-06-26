@@ -2,8 +2,6 @@ import React from "react";
 import Header from "./Header.js";
 import Semestre from "./Semestre.js";
 
-import malla from "../res/malla.js";
-
 class App extends React.Component {
 
     constructor(){
@@ -39,8 +37,8 @@ class App extends React.Component {
     }
 
     render() {
-        let SemestreComponents = malla.map(
-            (semestre) => <Semestre key={semestre.num_sem} data={semestre} switch={this.switchPasado} pasados={this.state.pasados}/>
+        let SemestreComponents = this.props.malla.map(
+            (semestre) => <Semestre key={semestre.num_sem} data={semestre} switch={this.switchPasado} pasados={this.state.pasados} malla={this.props.malla}/>
         );
 
         return(

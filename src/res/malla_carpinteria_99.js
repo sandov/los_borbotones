@@ -1,4 +1,4 @@
-const malla = 
+const malla_carpinteria_99 = 
 [
     {
         num_sem: 1,
@@ -6,7 +6,7 @@ const malla =
             [
                 {
                     id: 0, //debe ser único
-                    nombre: "Álgebra para Ingeniería",
+                    nombre: "martillazos para Ingeniería",
                     codigo: "BAIN017",
                     creditos: 6,
                     tasa_repr: 0.34,
@@ -14,7 +14,7 @@ const malla =
                 },
                 {
                     id: 1, 
-                    nombre: "Geometría para Ingeniería",
+                    nombre: "clavos para Ingeniería",
                     codigo: "BAIN012",
                     creditos: 6,
                     tasa_repr: 0.32,
@@ -22,7 +22,7 @@ const malla =
                 },
                 {
                     id: 2,
-                    nombre: "Introducción a la programación",
+                    nombre: "aserrin a la programación",
                     codigo: "INFO013",
                     creditos: 4,
                     tasa_repr: 0.99,
@@ -30,7 +30,7 @@ const malla =
                 },
                 {
                     id: 3,
-                    nombre: "Comunicación: Idioma Español",
+                    nombre: "Comunicaciónasdf: Idioma Japones",
                     codigo: "BAIN009",
                     creditos: 4,
                     tasa_repr: 0.07,
@@ -38,7 +38,7 @@ const malla =
                 },
                 {
                     id: 4,
-                    nombre: "Quimica para Ingeniería",
+                    nombre: "Quimica para vigas",
                     codigo: "BAIN019",
                     creditos: 4,
                     tasa_repr: 0.31,
@@ -54,7 +54,7 @@ const malla =
                 },
                 {
                     id: 6,
-                    nombre: "Taller de Ingeniería I",
+                    nombre: "Taller de carpinteria I",
                     codigo: "INFO015",
                     creditos: 4,
                     tasa_repr: 0.105,
@@ -69,7 +69,7 @@ const malla =
             [
                 {
                     id: 7, 
-                    nombre: "Cálculo I para Ingeniería",
+                    nombre: "Cálculo I para carpinteria",
                     codigo: "BAIN037",
                     creditos: 6,
                     tasa_repr: 0.45,
@@ -77,7 +77,7 @@ const malla =
                 },
                 {
                     id: 8,
-                    nombre: "Física I para Ingeniería",
+                    nombre: "Física I para carpinteria",
                     codigo: "BAIN012",
                     creditos: 6,
                     tasa_repr: 0.12,
@@ -613,4 +613,4 @@ const malla =
     },
 ];
 
-export default malla;
+export default malla_carpinteria_99;

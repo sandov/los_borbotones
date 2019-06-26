@@ -6,7 +6,7 @@ class Semestre extends React.Component {
     render(){
 
         const AsignaturaComponents = this.props.data.ramos.map(
-            (ramo) => <Asignatura key={ramo.id} data={ramo} switch={this.props.switch} pasados={this.props.pasados} />
+            (ramo) => <Asignatura key={ramo.id} data={ramo} switch={this.props.switch} pasados={this.props.pasados} malla={this.props.malla}/>
         );
 
         return (
