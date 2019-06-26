@@ -140,16 +140,18 @@ ul:last-child{
 
 form{
     display: block;
-    width: 20em;
     font-size: 2em;
 }
 
 button, select{
+    margin:.5em auto;
     display: block;
     font-size: 1em;
+    text-align: center;
 }
 
 .selector_container{
     text-align: center;
-    padding: 20%
+    display: block;
+    text-align: center;
 }

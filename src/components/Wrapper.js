@@ -3,7 +3,6 @@ import App from "./App.js";
 import malla_informatica_08 from "../res/malla_informatica_08.js";
 import malla_carpinteria_99 from "../res/malla_carpinteria_99.js";
 
-
 class Wrapper extends React.Component{
     constructor(){
         super();
@@ -35,7 +34,6 @@ class Wrapper extends React.Component{
                             <option value="informatica_08">informatica 2008</option>
                             <option value="carpinteria_99">carpinteria 2099</option>
                         </select> 
-                        <br/>
                         <button onClick={this.handleSelection}>Ver malla</button>
                     </form>
                 </div>
