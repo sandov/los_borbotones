@@ -15,3 +15,5 @@ informatica_2008
 nombre_carrera siempre va en mayúsculas.
 
 Tanto nombre_carrera como año deben estar encerrados en sus respectivas comillas dobles verticales "INGENIERÍA CIVIL EN INFORMÁTICA", "2008"
+
+Luego agregar manualmente el contenido de first_line a la primera linea del archivo generado.

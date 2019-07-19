@@ -1,3 +1,4 @@
+"asignatura_codigo","asignatura_nombre","asignatura_creditos","asignatura_creditosSCT","carrera","carrera_nombre","malla","semestre_en_malla","requisitos","optativo","fail_rate"
 "ELECT01","OPTATIVO 1","0","0","1704","INGENIERÍA CIVIL EN OBRAS CIVILES","2015","1","","1","0"
 "BAIN009-07","COMUNICACION: IDIOMA ESPAÑOL","4","0","1704","INGENIERÍA CIVIL EN OBRAS CIVILES","2015","1","","0","0.0764393"
 "BAIN019-07","QUIMICA PARA INGENIERIA","4","0","1704","INGENIERÍA CIVIL EN OBRAS CIVILES","2015","1","","0","0.311475"
