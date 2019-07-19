@@ -1,0 +1,17 @@
+Cómo filtrar el archivo con todas las asignaturas
+
+grep "nombre_carrera" info104_cursos_mallas.csv | grep "año_malla" > filtrados/carrera_año
+
+Donde: 
+nombre_carrera es el nombre de la carrera en el archivo maestro.
+por ej: INGENIERÍA CIVIL EN INFORMÁTICA
+
+año_malla es el año donde se implantó la malla.
+por ej: 2008
+
+carrera_año es el nombre que se quiere dar al archivo filtrado, por ejemplo:
+informatica_2008
+
+nombre_carrera siempre va en mayúsculas.
+
+Tanto nombre_carrera como año deben estar encerrados en sus respectivas comillas dobles verticales "INGENIERÍA CIVIL EN INFORMÁTICA", "2008"
