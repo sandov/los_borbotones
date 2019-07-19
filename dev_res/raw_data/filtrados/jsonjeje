@@ -1,0 +1,593 @@
+[
+    {
+        "num_sem": 0,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "ELECT01",
+                "id": 0,
+                "creditos": "0",
+                "nombre": "OPTATIVO 1",
+                "tasa_repr": "0"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN009-07",
+                "id": 1,
+                "creditos": "4",
+                "nombre": "COMUNICACION: IDIOMA ESPA\u00d1OL",
+                "tasa_repr": "0.0764393"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN019-07",
+                "id": 2,
+                "creditos": "4",
+                "nombre": "QUIMICA PARA INGENIERIA",
+                "tasa_repr": "0.311475"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC016-08",
+                "id": 3,
+                "creditos": "4",
+                "nombre": "TALLER DE INGENIERIA I",
+                "tasa_repr": "0.0437086"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN012-07",
+                "id": 4,
+                "creditos": "6",
+                "nombre": "GEOMETRIA PARA INGENIERIA",
+                "tasa_repr": "0.534303"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN017-07",
+                "id": 5,
+                "creditos": "6",
+                "nombre": "ALGEBRA PARA INGENIERIA",
+                "tasa_repr": "0.509282"
+            }
+        ]
+    },
+    {
+        "num_sem": 1,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "BAIN039-07",
+                "id": 6,
+                "creditos": "4",
+                "nombre": "COMUNICACION: IDIOMA INGLES",
+                "tasa_repr": "0.205674"
+            },
+            {
+                "requisitos": [],
+                "codigo": "DYRE060-90",
+                "id": 7,
+                "creditos": "4",
+                "nombre": "EDUCACI\u00d3N F\u00cdSICA Y SALUD",
+                "tasa_repr": "0"
+            },
+            {
+                "requisitos": [],
+                "codigo": "INFO012-07",
+                "id": 8,
+                "creditos": "4",
+                "nombre": "PROGRAMACION I",
+                "tasa_repr": "0.366783"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN038-07",
+                "id": 9,
+                "creditos": "8",
+                "nombre": "FISICA I PARA INGENIERIA",
+                "tasa_repr": "0.474528"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC026-08",
+                "id": 10,
+                "creditos": "4",
+                "nombre": "TALLER DE INGENIERIA II",
+                "tasa_repr": "0.0278207"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN036-07",
+                "id": 11,
+                "creditos": "5",
+                "nombre": "ALGEBRA LINEAL PARA INGENIERIA",
+                "tasa_repr": "0.474564"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN037-07",
+                "id": 12,
+                "creditos": "5",
+                "nombre": "CALCULO I PARA INGENIERIA",
+                "tasa_repr": "0.538184"
+            }
+        ]
+    },
+    {
+        "num_sem": 2,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "IDMI031-07",
+                "id": 13,
+                "creditos": "4",
+                "nombre": "METODOS GRAFICOS PARA INGENIERIA I",
+                "tasa_repr": "0.368119"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IMPT043-07",
+                "id": 14,
+                "creditos": "4",
+                "nombre": "MATERIALES DE INGENIERIA",
+                "tasa_repr": "0.1568"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC036-08",
+                "id": 15,
+                "creditos": "4",
+                "nombre": "TALLER DE INGENIERIA III",
+                "tasa_repr": "0.0131086"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN041-07",
+                "id": 16,
+                "creditos": "5",
+                "nombre": "ECUACIONES DIFERENCIALES PARA INGENIERIA",
+                "tasa_repr": "0.421555"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN042-07",
+                "id": 17,
+                "creditos": "5",
+                "nombre": "CALCULO II PARA INGENIERIA",
+                "tasa_repr": "0.515432"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN043-07",
+                "id": 18,
+                "creditos": "6",
+                "nombre": "FISICA II PARA INGENIERIA",
+                "tasa_repr": "0.328267"
+            }
+        ]
+    },
+    {
+        "num_sem": 3,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "BAIN052-07",
+                "id": 19,
+                "creditos": "4",
+                "nombre": "ESTADISTICA Y PROBABILIDADES PARA INGENIERIA",
+                "tasa_repr": "0.278114"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC053-07",
+                "id": 20,
+                "creditos": "6",
+                "nombre": "MECANICA RACIONAL I",
+                "tasa_repr": "0.31686"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN053-07",
+                "id": 21,
+                "creditos": "4",
+                "nombre": "METODOS NUMERICOS PARA INGENIERIA",
+                "tasa_repr": "0.414729"
+            },
+            {
+                "requisitos": [],
+                "codigo": "BAIN054-07",
+                "id": 22,
+                "creditos": "8",
+                "nombre": "FISICA III PARA INGENIERIA",
+                "tasa_repr": "0.207843"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC046-08",
+                "id": 23,
+                "creditos": "4",
+                "nombre": "TALLER DE DISE\u00d1O EN INGENIERIA",
+                "tasa_repr": "0.191011"
+            },
+            {
+                "requisitos": [],
+                "codigo": "DMIB041-10",
+                "id": 24,
+                "creditos": "4",
+                "nombre": "METODOS GRAFICOS PARA INGENIERIA II",
+                "tasa_repr": "0.304688"
+            }
+        ]
+    },
+    {
+        "num_sem": 4,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "ELECT02",
+                "id": 25,
+                "creditos": "0",
+                "nombre": "OPTATIVO 2",
+                "tasa_repr": ""
+            },
+            {
+                "requisitos": [],
+                "codigo": "IECO102-05",
+                "id": 26,
+                "creditos": "4",
+                "nombre": "ECONOMIA GENERAL",
+                "tasa_repr": "0.120552"
+            },
+            {
+                "requisitos": [],
+                "codigo": "MATM271-04",
+                "id": 27,
+                "creditos": "5",
+                "nombre": "MATEMATICA AVANZADA PARA INGENIERIA",
+                "tasa_repr": "0.242215"
+            },
+            {
+                "requisitos": [],
+                "codigo": "FSCA151-04",
+                "id": 28,
+                "creditos": "4",
+                "nombre": "FISICA CONTEMPORANEA",
+                "tasa_repr": "0.175115"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IMPT207-90",
+                "id": 29,
+                "creditos": "6",
+                "nombre": "MECANICA RACIONAL II",
+                "tasa_repr": "0.405872"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC117-90",
+                "id": 30,
+                "creditos": "6",
+                "nombre": "MECANICA DE SOLIDOS",
+                "tasa_repr": "0.262857"
+            }
+        ]
+    },
+    {
+        "num_sem": 5,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "IMPT210-90",
+                "id": 31,
+                "creditos": "6",
+                "nombre": "MECANICA DE FLUIDOS",
+                "tasa_repr": "0.108796"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC173-90",
+                "id": 32,
+                "creditos": "6",
+                "nombre": "TOPOGRAFIA GENERAL",
+                "tasa_repr": "0.169851"
+            },
+            {
+                "requisitos": [],
+                "codigo": "ADMI109-13",
+                "id": 33,
+                "creditos": "4",
+                "nombre": "ADMINISTRACION DE EMPRESAS",
+                "tasa_repr": "0"
+            },
+            {
+                "requisitos": [],
+                "codigo": "CITI111-15",
+                "id": 34,
+                "creditos": "4",
+                "nombre": "GEOLOG\u00cdA GENERAL",
+                "tasa_repr": "0.0215054"
+            },
+            {
+                "requisitos": [],
+                "codigo": "INFO152-08",
+                "id": 35,
+                "creditos": "4",
+                "nombre": "PROGRAMACION Y COMPUTACION PARA INGENIERIA CIVIL",
+                "tasa_repr": "0.0496454"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC132-90",
+                "id": 36,
+                "creditos": "6",
+                "nombre": "ANALISIS DE ESTRUCTURAS I",
+                "tasa_repr": "0.140187"
+            }
+        ]
+    },
+    {
+        "num_sem": 6,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "ELEL251-08",
+                "id": 37,
+                "creditos": "4",
+                "nombre": "ELECTRICIDAD Y ELECTRONICA PARA INGENIERIA",
+                "tasa_repr": "0.0676056"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC246-90",
+                "id": 38,
+                "creditos": "6",
+                "nombre": "TECNOLOGIA DEL HORMIGON",
+                "tasa_repr": "0.0254237"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC260-98",
+                "id": 39,
+                "creditos": "6",
+                "nombre": "MECANICA DE SUELOS I",
+                "tasa_repr": "0.0681818"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC254-90",
+                "id": 40,
+                "creditos": "6",
+                "nombre": "HIDRAULICA",
+                "tasa_repr": "0.334802"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC133-90",
+                "id": 41,
+                "creditos": "6",
+                "nombre": "ANALISIS DE ESTRUCTURAS II",
+                "tasa_repr": "0.263158"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC268-04",
+                "id": 42,
+                "creditos": "4",
+                "nombre": "INGENIERIA DE TRANSPORTE",
+                "tasa_repr": "0.0359281"
+            }
+        ]
+    },
+    {
+        "num_sem": 7,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "IOCC250-04",
+                "id": 43,
+                "creditos": "4",
+                "nombre": "INTRODUCCION A LA CONSTRUCCION",
+                "tasa_repr": "0.012012"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC288-90",
+                "id": 44,
+                "creditos": "4",
+                "nombre": "METODOS MATEMATICOS PARA INGENIERIA",
+                "tasa_repr": "0.0952381"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC134-90",
+                "id": 45,
+                "creditos": "6",
+                "nombre": "DINAMICA DE ESTRUCTURAS",
+                "tasa_repr": "0.0895522"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC236-90",
+                "id": 46,
+                "creditos": "6",
+                "nombre": "HORMIGON ARMADO I",
+                "tasa_repr": "0.299528"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC259-08",
+                "id": 47,
+                "creditos": "4",
+                "nombre": "TALLER DE REDES DE AGUA POTABLE Y ALCANTARILLADO",
+                "tasa_repr": "0.0320513"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC263-90",
+                "id": 48,
+                "creditos": "6",
+                "nombre": "MECANICA DE SUELOS II",
+                "tasa_repr": "0.106443"
+            }
+        ]
+    },
+    {
+        "num_sem": 8,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "IOCC281-00",
+                "id": 49,
+                "creditos": "6",
+                "nombre": "COMPUTACION PARA INGENIERIA ESTRUCTURAL",
+                "tasa_repr": "0.0462633"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC238-90",
+                "id": 50,
+                "creditos": "6",
+                "nombre": "ESTRUCTURAS DE ACERO I",
+                "tasa_repr": "0.167683"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC237-90",
+                "id": 51,
+                "creditos": "4",
+                "nombre": "HORMIGON ARMADO II",
+                "tasa_repr": "0.246875"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC280-98",
+                "id": 52,
+                "creditos": "4",
+                "nombre": "DISE\u00d1O ESTRUCTURAL DE PAVIMENTO",
+                "tasa_repr": "0.0152091"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC221-08",
+                "id": 53,
+                "creditos": "4",
+                "nombre": "TALLER DE FUNDACIONES",
+                "tasa_repr": "0.0377358"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC290-90",
+                "id": 54,
+                "creditos": "4",
+                "nombre": "EVALUACION DE PROYECTOS",
+                "tasa_repr": "0.0267559"
+            }
+        ]
+    },
+    {
+        "num_sem": 9,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "ELECT20",
+                "id": 55,
+                "creditos": "0",
+                "nombre": "OPTATIVO PROFESIONAL 1",
+                "tasa_repr": ""
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC239-90",
+                "id": 56,
+                "creditos": "6",
+                "nombre": "ESTRUCTURAS DE ACERO II",
+                "tasa_repr": "0.0699301"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC294-07",
+                "id": 57,
+                "creditos": "6",
+                "nombre": "PROGRAMACION Y ADMINISTRACION DE OBRAS",
+                "tasa_repr": "0.00706714"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC211-99",
+                "id": 58,
+                "creditos": "4",
+                "nombre": "INGENIERIA SISMORESISTENTE",
+                "tasa_repr": "0.0441176"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC257-04",
+                "id": 59,
+                "creditos": "4",
+                "nombre": "INGENIERIA AMBIENTAL",
+                "tasa_repr": "0.03125"
+            },
+            {
+                "requisitos": [],
+                "codigo": "INFO279-04",
+                "id": 60,
+                "creditos": "6",
+                "nombre": "METODOS DE OPTIMIZACION",
+                "tasa_repr": "0.0614334"
+            }
+        ]
+    },
+    {
+        "num_sem": 10,
+        "ramos": [
+            {
+                "requisitos": [],
+                "codigo": "ELECT21",
+                "id": 61,
+                "creditos": "0",
+                "nombre": "OPTATIVO PROFESIONAL 2",
+                "tasa_repr": ""
+            },
+            {
+                "requisitos": [],
+                "codigo": "ELECT22",
+                "id": 62,
+                "creditos": "0",
+                "nombre": "OPTATIVO PROFESIONAL 3",
+                "tasa_repr": ""
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC298-90",
+                "id": 63,
+                "creditos": "2",
+                "nombre": "TESIS",
+                "tasa_repr": "0.223684"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC233-94",
+                "id": 64,
+                "creditos": "4",
+                "nombre": "TALLER DE DISE\u00d1O ESTRUCTURAL",
+                "tasa_repr": "0.100877"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC279-90",
+                "id": 65,
+                "creditos": "4",
+                "nombre": "CONSTRUCCION PESADA BASICA",
+                "tasa_repr": "0"
+            },
+            {
+                "requisitos": [],
+                "codigo": "IOCC225-08",
+                "id": 66,
+                "creditos": "4",
+                "nombre": "TALLER DE METODOLOGIA DE LA INVESTIGACION",
+                "tasa_repr": "0.0255319"
+            }
+        ]
+    }
+]
