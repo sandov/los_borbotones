@@ -1,6 +1,6 @@
 import csv
 
-with open('obras_civiles_2018') as csvfile:
+with open('obras_civiles_2015') as csvfile:
     reader = csv.DictReader(csvfile)
     json_out = "[{}]"
 
