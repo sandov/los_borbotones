@@ -1,7 +1,7 @@
 import json
 import csv
 
-archivo_entrada = "obras_civiles_2015" 
+archivo_entrada = "obras_civiles_2018" 
 
 id_lectura = 0
 
@@ -62,19 +62,11 @@ with open(archivo_entrada) as csvfile:
             }
         )
 
-        lista_req = requisitos.split(',')
-
-        for req in lista_req:
-            req = req.strip()
-            #print(req, dict_ramos[req])
-            print(dict_ramos.get('req', "default_value")
-            #malla[int(semestre)-1]["ramos"][id_cont]["requisitos"].append(dict_ramos[req])
-
-        id_cont += 1
+        
 
 
 malla_json = json.dumps(malla, indent = 4)
 
-#print(malla_json)
+print(malla_json)
 
-print(dict_ramos)
+#print(dict_ramos)
