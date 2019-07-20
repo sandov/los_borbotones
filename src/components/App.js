@@ -43,7 +43,7 @@ class App extends React.Component {
 
         return(
             <div className="app">
-                <Header />
+                <Header nombre_malla={this.props.nombre_malla}/>
                 <div className="semestres_container">
                     {SemestreComponents}
                 </div>

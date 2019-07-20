@@ -1,7 +1,7 @@
 import React from "react";
 import App from "./App.js";
 import malla_informatica_08 from "../res/malla_informatica_08.js";
-import malla_carpinteria_99 from "../res/malla_carpinteria_99.js";
+import malla_obras_18 from "../res/malla_obras_18.js";
 
 class Wrapper extends React.Component{
     constructor(){
@@ -16,14 +16,20 @@ class Wrapper extends React.Component{
     render(){
 
         let malla;
-        if (this.state.malla == "informatica_08")
-        {malla = malla_informatica_08;}
-        else if(this.state.malla == "carpinteria_99")
-        {malla = malla_carpinteria_99;}
+        let nombre_malla;
+        if (this.state.malla == "informatica_08"){
+            malla = malla_informatica_08;
+            nombre_malla = "Ingeniería Civil en Informática — malla 2008"
+        }
+        else if(this.state.malla == "obras_18")
+        {
+            malla = malla_obras_18;
+            nombre_malla = "Ingeniería Civil en Obras Civiles — malla 2018"
+        }
     
         if (this.state.seleccionado)
             return(
-                <App malla={malla}/>
+                <App malla={malla} nombre_malla={nombre_malla}/>
         );
         else
             return(
@@ -31,8 +37,8 @@ class Wrapper extends React.Component{
                     <h1>Seleccionar carrera y malla</h1>
                     <form name="selector_malla">
                         <select name="carrera">
-                            <option value="informatica_08">informatica 2008</option>
-                            <option value="carpinteria_99">carpinteria 2099</option>
+                            <option value="informatica_08">Informática 2008</option>
+                            <option value="obras_18">Obras Civiles 2018</option>
                         </select> 
                         <button onClick={this.handleSelection}>Ver malla</button>
                     </form>
