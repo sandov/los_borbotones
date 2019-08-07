@@ -137,3 +137,21 @@ ul:last-child{
     display: inline-block;
     text-align: center;
 }
+
+form{
+    display: block;
+    font-size: 2em;
+}
+
+button, select{
+    margin:.5em auto;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+}
+
+.selector_container{
+    text-align: center;
+    display: block;
+    text-align: center;
+}

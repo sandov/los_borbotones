@@ -27,7 +27,7 @@ class Asignatura extends React.Component {
             <div className="asignatura">
                 <input type="checkbox" class="check_asignatura" onClick={this.handleClick}/>
                 <div className="nombre_asignatura_container"> {this.props.data.nombre} </div> &nbsp;
-                <BotonAsignatura data={this.props.data} pasados={this.props.pasados}/>
+                <BotonAsignatura data={this.props.data} pasados={this.props.pasados} malla={this.props.malla}/>
             </div>
         );
     }
