@@ -2,7 +2,7 @@
 
 Desarrollador: Los Borbotones
 
-Estado: Versión pre-alpha
+Estado: Versión alpha
 
 Aplicación para mostrar las mallas curriculares de las carreras de
 la facultad de ingeniería.
